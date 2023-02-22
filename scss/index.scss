@@ -1,0 +1,21 @@
+@import '../fonts/Scania\ Sans\ CY\ Headline/stylesheet.css';
+@import '../fonts/Lab Grotesque/stylesheet.css';
+@import '_header';
+@import './main/_index';
+@import './footer';
+@import './specials';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	outline: none;
+	list-style: none;
+}
+
+body {
+	background-color: #111010;
+	//background: url('../assets/img/background.png');
+	color: #fff;
+}

@@ -1,0 +1,65 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 76px 200px;
+}
+
+.header__nav__wrapper {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.header__logo {
+	display: flex;
+	gap: 50px;
+	align-items: center;
+	font-size: 20px;
+}
+
+.header__logo__title {
+	font-family: Scania Sans CY Headline;
+	letter-spacing: 0.105em;
+}
+
+.header__logo__descrip {
+	font-family: Lab Grotesque;
+	line-height: 18px;
+	color: #6d6d6d;
+	width: 99px;
+	font-size: 0.8em;
+	letter-spacing: 0.05em;
+}
+
+.header__nav {
+	display: flex;
+	gap: 40px;
+	font-family: Lab Grotesque;
+
+	> input[type='radio'] {
+		display: none;
+
+		&:checked + label {
+			color: #ffcf7a;
+		}
+	}
+
+	> label {
+		cursor: pointer;
+		text-transform: uppercase;
+		color: #949494;
+		transition: color 0.3s;
+
+		&:hover {
+			color: #ffcf7a;
+		}
+	}
+}
+
+.header__nav__icon {
+	background-color: #fff;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 2px;
+	background: linear-gradient(45deg, #f98b4dcc, #eccf94);
+}

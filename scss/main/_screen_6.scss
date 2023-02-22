@@ -1,0 +1,98 @@
+.screen_6 {
+	display: flex;
+	flex-direction: column;
+	//align-items: center;
+	font-family: Lab Grotesque;
+	width: 1300px;
+
+	margin: auto;
+}
+
+.screen_6__get_catalog {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
+	margin-bottom: 100px;
+}
+
+.screen_6__get_catalog__title {
+	font-weight: 300;
+	font-size: 30px;
+
+	margin-bottom: 35px;
+}
+
+.screen_6__get_catalog__wrapper__btn {
+	position: relative;
+
+	&::before {
+		content: '';
+		position: absolute;
+		display: block;
+
+		bottom: 10px;
+		left: 100px;
+		border-radius: 100%;
+
+		box-shadow: 0 0 120px 70px rgba(175, 152, 112, 0.373);
+	}
+}
+
+.screen_6__get_catalog__btn {
+	position: relative;
+	padding: 15px 64px;
+	font-weight: 500;
+	font-size: 18px;
+
+	color: #121212;
+
+	background: linear-gradient(270.21deg, #eccf94 40%, #f98b4dcc, #ff6752cc);
+
+	cursor: pointer;
+}
+
+.screen_6__blocks {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-bottom: 90px;
+}
+
+.screen_6__blocks__title {
+	width: 1067px;
+	font-weight: 250;
+	font-size: 40px;
+	line-height: 55px;
+
+	text-align: center;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+
+	background: linear-gradient(
+		-125deg,
+		#ffffff 36.17%,
+		rgba(255, 255, 255, 0.16) 97.71%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+
+	margin-bottom: 45px;
+}
+
+.screen_6__blocks__menu {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	//gap: 42px;
+
+	> li {
+		width: 370px;
+		height: 267px;
+		background-color: #000000;
+	}
+}

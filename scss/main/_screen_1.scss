@@ -1,0 +1,96 @@
+.screen_1 {
+	//border: 1px solid red;
+	margin-top: 100px;
+	height: 650px;
+	position: relative;
+	padding: 0 200px;
+}
+
+.screen_1__info {
+	margin-bottom: 86px;
+}
+
+.screen_1__info__title {
+	width: 780px;
+	font-family: Lab Grotesque;
+	font-style: normal;
+	font-weight: 250;
+	font-size: 64px;
+	line-height: 80px;
+
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+
+	background: linear-gradient(
+		200deg,
+		#ffffff 50%,
+		rgba(255, 255, 255, 0.068) 100%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+
+	margin-bottom: 30px;
+}
+
+.screen_1__info__subtitle {
+	color: #ffcf7a;
+	font-family: Lab Grotesque;
+	font-size: 18px;
+}
+
+.screen_1__subtitle__price {
+	margin-left: 10px;
+	font-size: 38px;
+}
+
+.screen_1__menu_icons {
+	display: flex;
+	gap: 80px;
+
+	> li {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 18px;
+		text-align: center;
+		font-size: 16px;
+
+		&:first-child {
+			width: 91px;
+		}
+
+		&:nth-child(2) {
+			width: 130px;
+		}
+	}
+}
+
+.screen_1__wrapper__fireplace {
+	position: absolute;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	right: 250px;
+	top: 0;
+
+	border-radius: 100%;
+
+	&::before {
+		content: '';
+		position: absolute;
+		display: block;
+
+		width: 400px;
+		height: 120px;
+		border-radius: 100%;
+		box-shadow: 50px -120px 150px #fac26367;
+	}
+}
+
+.screen_1__fireplace {
+	position: relative;
+}

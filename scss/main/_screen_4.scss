@@ -1,0 +1,72 @@
+.screen_4 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: Lab Grotesque;
+}
+
+.screen_4__title {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	font-weight: 250;
+	font-size: 40px;
+	line-height: 55px;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+
+	margin-bottom: 32px;
+}
+
+.screen_4__title__left_side {
+	background: linear-gradient(-90deg, #ffffff, rgba(255, 255, 255, 0.2) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.screen_4__fireplace__wrapper {
+	position: relative;
+}
+
+.screen_4__fireplace__title {
+	position: absolute;
+	width: 644px;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 33px;
+
+	left: 25%;
+	text-align: center;
+
+	z-index: 1;
+}
+
+.screen_4__fireplace {
+	position: relative;
+	height: 600px;
+	width: 1300px;
+	box-shadow: inset 0 0 20px 110px #111010;
+	background: url('../../assets/img/main/screen_4/kamin.png');
+	color: #000;
+	font-weight: 500;
+
+	&::before {
+		content: 'Яндекс.Алиса';
+		position: absolute;
+		display: block;
+
+		left: 240px;
+		bottom: 220px;
+	}
+
+	&::after {
+		content: 'Mi Home Xiaomi';
+		position: absolute;
+		display: block;
+
+		right: 200px;
+		bottom: 220px;
+	}
+}

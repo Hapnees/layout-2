@@ -1,0 +1,112 @@
+.screen_2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin-bottom: 200px;
+}
+
+.screen_2__info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Lab Grotesque';
+	text-align: center;
+}
+
+.screen_2__info__title {
+	width: 700px;
+
+	font-family: 'Lab Grotesque';
+	font-style: normal;
+	font-weight: 250;
+	font-size: 40px;
+	line-height: 60px;
+
+	text-align: center;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+
+	background: linear-gradient(
+		220deg,
+		#ffffff 32%,
+		rgba(255, 255, 255, 0.1) 88%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+
+	margin-bottom: 21px;
+}
+
+.screen_2__info__subtitle {
+	width: 550px;
+
+	font-family: 'Lab Grotesque';
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 33px;
+
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.screen_2__wrapper__fireplace {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.screen_2__container__fireplace {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-bottom: 30px;
+
+	&::before {
+		content: '';
+		position: absolute;
+		display: block;
+
+		width: 10px;
+		height: 10px;
+		border-radius: 100%;
+
+		box-shadow: 0px -100px 720px 220px #fdad6ca5;
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		display: block;
+
+		width: 10px;
+		height: 10px;
+		border-radius: 100%;
+
+		box-shadow: -260px 60px 300px 150px #fdad6c89;
+	}
+}
+
+.screen_2__fireplace {
+	z-index: 1;
+}
+
+.screen_2__menu_icons {
+	display: flex;
+	gap: 145px;
+	font-family: Lab Grotesque;
+
+	> li {
+		display: flex;
+		gap: 35px;
+
+		> p {
+			width: 170px;
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+}
