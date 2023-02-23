@@ -12,7 +12,6 @@
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	//gap: 85px;
 
 	margin-bottom: 70px;
 }
@@ -46,6 +45,9 @@
 
 .screen_7__slider_length {
 	-webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+
 	background-color: #646464;
 
 	height: 2px;
@@ -68,6 +70,23 @@
 		cursor: pointer;
 		height: 2px;
 	}
+
+  &::-moz-range-thumb {
+		-moz-appearance: none;
+		width: 30px;
+		height: 30px;
+		background: #ffcf7a;
+		border-radius: 2px;
+		cursor: pointer;
+		pointer-events: auto;
+		margin-top: -15px;
+  }
+
+  &::-moz-progress-bar {
+		-moz-appearance: none;
+		cursor: pointer;
+		height: 2px;
+  }
 }
 
 .arrow {
@@ -252,6 +271,8 @@
 	padding: 15px 55px;
 
   border-radius: 1px;
+
+  // Вроде похоже, но не совсем то :C
   background: linear-gradient(-170deg, #eccf94 40%, #f98b4dcc, #ff6752cc);
 
 	color: #121212;

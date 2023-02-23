@@ -698,6 +698,8 @@ header {
 
 .screen_7__slider_length {
   -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
   background-color: #646464;
   height: 2px;
   width: 367px;
@@ -714,6 +716,21 @@ header {
 }
 .screen_7__slider_length::-webkit-slider-runnable-track {
   -webkit-appearance: none;
+  cursor: pointer;
+  height: 2px;
+}
+.screen_7__slider_length::-moz-range-thumb {
+  -moz-appearance: none;
+  width: 30px;
+  height: 30px;
+  background: #ffcf7a;
+  border-radius: 2px;
+  cursor: pointer;
+  pointer-events: auto;
+  margin-top: -15px;
+}
+.screen_7__slider_length::-moz-progress-bar {
+  -moz-appearance: none;
   cursor: pointer;
   height: 2px;
 }
