@@ -422,7 +422,7 @@ header {
   height: 600px;
   width: 1300px;
   box-shadow: inset 0 0 20px 110px #111010;
-  background: url("../../assets/img/main/screen_4/kamin.png");
+  background: url("../assets/img/main/screen_4/kamin.png");
   color: #000;
   font-weight: 500;
 }
@@ -495,8 +495,7 @@ header {
 .screen_5__left_side__menu {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  -moz-column-gap: 100px;
-       column-gap: 100px;
+  column-gap: 100px;
   row-gap: 10px;
 }
 
@@ -580,7 +579,7 @@ header {
   display: flex;
   flex-direction: column;
   font-family: Lab Grotesque;
-  width: 1300px;
+  max-width: 1300px;
   margin: auto;
 }
 
@@ -617,7 +616,8 @@ header {
   font-weight: 500;
   font-size: 18px;
   color: #121212;
-  background: linear-gradient(270.21deg, #eccf94 40%, rgba(249, 139, 77, 0.8), rgba(255, 103, 82, 0.8));
+  border-radius: 1px;
+  background: linear-gradient(-170deg, #eccf94 40%, rgba(249, 139, 77, 0.8), rgba(255, 103, 82, 0.8));
   cursor: pointer;
 }
 
@@ -776,8 +776,7 @@ header {
 .screen_7__firplace_settings__more_functions__menu {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  -moz-column-gap: 140px;
-       column-gap: 140px;
+  column-gap: 140px;
   row-gap: 10px;
   font-weight: 500;
   font-size: 14px;
@@ -871,7 +870,8 @@ header {
   font-size: 18px;
   line-height: 30px;
   padding: 15px 55px;
-  background: linear-gradient(270.21deg, #eccf94 40%, rgba(249, 139, 77, 0.8), rgba(255, 103, 82, 0.8));
+  border-radius: 1px;
+  background: linear-gradient(-170deg, #eccf94 40%, rgba(249, 139, 77, 0.8), rgba(255, 103, 82, 0.8));
   color: #121212;
   cursor: pointer;
 }
@@ -917,8 +917,7 @@ footer {
 .footer__top_content__menu {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  -moz-column-gap: 217px;
-       column-gap: 217px;
+  column-gap: 217px;
   row-gap: 40px;
 }
 
@@ -990,3 +989,5 @@ body {
   background-color: #111010;
   color: #fff;
 }
+
+/*# sourceMappingURL=index.css.map */

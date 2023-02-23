@@ -3,7 +3,7 @@
 	flex-direction: column;
 	//align-items: center;
 	font-family: Lab Grotesque;
-	width: 1300px;
+	max-width: 1300px;
 
 	margin: auto;
 }
@@ -47,8 +47,9 @@
 	font-size: 18px;
 
 	color: #121212;
-
-	background: linear-gradient(270.21deg, #eccf94 40%, #f98b4dcc, #ff6752cc);
+  border-radius: 1px;
+  // background-color: #ECCF94;
+  background: linear-gradient(-170deg, #eccf94 40%, #f98b4dcc, #ff6752cc);
 
 	cursor: pointer;
 }
